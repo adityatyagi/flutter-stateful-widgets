@@ -35,10 +35,10 @@ Classes that inherit "StateFulWidget" are immutable. The State is mutable.
 
 `hintText` in `InputDecoration` helps in adding placeholders.  
 
-### Dropdowns
+## Dropdowns
 The `DropdownButton` widget has the generic type "T". It will have the type according to the type of data in your dropdown menu.  
 
-### Input
+## Input
 While taking an input, you can also specify the keyboard type that should open using the `keyboardType` property of `TextField`. For example, if you want to take distance or amount as an input, it will always be a number. Thus, you can use `keyboardType: TextInputType.number`. Others can be email, phone number, urls, etc.  
 
 [Theming the text input/text style](https://api.flutter.dev/flutter/material/TextTheme-class.html).  
@@ -54,7 +54,4 @@ It is a good practice to use constants for fixed spacing values like padding and
 Expanded widget is used like a flex. Making Widgets as child elements of Expanded helps them to cover the space equally.  
 
 ## Colors
-You can choose colors [here](https://api.flutter.dev/flutter/material/Colors-class.html).  
-
-
-
+You can choose colors [here](https://api.flutter.dev/flutter/material/Colors-class.html).
